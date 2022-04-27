@@ -1,0 +1,276 @@
+body{
+    background: hsl(218, 28%, 13%);
+    max-width: 1440px;
+    min-width: 360px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    padding: 2rem;
+    margin: 0rem;
+    padding: 0rem;
+}
+header{
+    font-family:  "Raleway(https://fonts.google.com/specimen/Raleway)";
+    font-weight: 400, 700;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.rightheader ul{
+    list-style-type: none;
+    padding: 1rem;
+    margin: 0;
+}
+.rightheader li{
+    color: white;
+    text-align: center;
+    display:inline-block;
+    margin: 0 1rem 0 1rem;
+
+}
+.rightheader a{
+    color: white;
+    text-decoration: none;
+    display:block;
+
+}
+.rightheader a:hover{
+    color: sienna;
+    background-color: white;
+    text-decoration: underline;
+}
+.beginning{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    color: white;
+    
+}
+.image1,.image2{
+    height: 17rem;
+}
+h1,h6{
+    font-size: 2rem;
+    color: white;
+}
+.beginning p{
+    font-weight: lighter;
+    font-size: 01rem;
+    color: dimgray;
+    background: url(images/bg-curvy-desktop.svg);
+}
+#btn1{
+    color: white;
+    background-color: #026773;
+    width: 10rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+#btn1:hover{
+    background-color: black;
+    color: darkmagenta;
+}
+.msg1{
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    color: white; 
+    justify-content: space-between;
+    flex-basis: auto; 
+    padding-bottom: 3rem;
+}
+.msg1 p{
+    color: dimgray;
+    font-size: 0.6rem;
+}
+h2 h3 h4 h5{
+    font-size: 1rem;
+}
+
+.msg2{
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    color: white;
+    justify-content: space-between;
+    flex-basis: auto; 
+    padding-bottom: 3rem;
+}
+.msg2 p{
+    color: dimgray;
+    font-size: 0.6rem;
+}
+.productive{
+    display: flex;
+    flex-flow: row nowrap;
+    color: white;
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+}
+.image2{
+    margin-right: 2rem;
+    width: 30rem;
+}
+.productive p{
+    margin-top: 1rem;
+    color: dimgray;
+}
+h6{
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+    padding-left: 0rem;
+
+}
+.productive a{
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+}
+.productive a:hover{
+    text-decoration: underline;
+    color: black;
+    background-color: crimson;
+}
+#quotations{
+    margin-left: 3rem;
+}
+.comments{
+    display: flex;
+    flex-flow: row nowrap;
+    color: white;
+    margin-left: 3rem;
+}
+.comments div{
+    width: 30%;
+    background-color: hsl(219, 30%, 18%);
+    margin: -1rem 1rem 1rem 1rem;
+}
+.comments img{
+    height: 2rem;
+    border-radius: 1rem;
+    margin:0rem 0.5rem 0rem 0rem;
+}
+.comments p{
+    margin: 1rem 1rem 1rem 1rem;
+}
+.comments div div{
+    display: flex;
+    flex-flow: row nowrap;
+    width:max-content;
+    margin-top: 1rem;
+}
+blockquote{
+    margin-top: 0rem;
+    margin-left: 0rem;
+}
+
+.input{
+    width: 50%;
+    margin: auto;
+    background-color: hsl(217, 28%, 15%);
+    padding: 0.5rem 3rem 0rem 3rem;
+    color: white;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: -9rem;
+    border-radius: 0.5rem;
+    z-index: 10px;
+    opacity: 0.9;
+}
+.location img{
+    height: 22px;
+    width: 20px;
+}
+#input{
+    border: none;
+    border-radius: 1rem;
+    width: 20rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+::-webkit-input-placeholder{
+    color: #0a3a40;
+    opacity: 1;
+}
+.freedom{
+    padding-top: 10rem;
+    background-color: hsl(216, 53%, 9%);
+    z-index: -1rem;
+}
+.fylo{
+    margin-left: 2.2rem;
+}
+
+.last{
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 0rem;
+    justify-content: left;
+    padding-right: 0rem;
+    padding-right: 0rem;
+}
+.last img:hover{
+    background-color: aqua;
+}
+.last div{
+    margin: 1rem 0rem 2rem 2rem;
+}
+.location{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 25%;
+    margin: auto;
+    text-align: left;
+    padding-top: 1rem;
+    
+}
+.phone{
+    margin-right: 1rem;
+}
+#email{
+    margin-right: 0.7rem;
+}
+.plot{
+    margin-right: 4rem;
+    color: white;
+}
+.last ul{
+    list-style-type: none;
+    text-align:left;
+}
+.location p{
+    margin: 0rem 1rem 0rem 1rem;
+    color: white;
+}
+.last a{
+    text-decoration: none;
+    color: white;
+}
+.last a:hover{
+    color: aquamarine;
+    text-decoration: underline;
+}
+.social{
+    padding-top: 0.5rem;
+    margin-left: 5rem;
+}
+.social img{
+    border: 1px white solid;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 1rem;
+    padding: 0.2rem;
+}
+.attribution a{
+    text-decoration: none;
+    color: white;
+}
+.attribution a:hover{
+    text-decoration: underline;
+    background-color: black;
+}
